@@ -1,0 +1,64 @@
+{
+    "name": "panda",
+    "version": "1.0.0",
+    "description": "test work",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack serve --open",
+        "watch": "webpack --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jon19995/Panda.git"
+    },
+    "keywords": [
+        "Crazy Panda",
+        "Test Work"
+    ],
+    "author": "Evgenii Zhukov",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jon19995/Panda.git/issues"
+    },
+    "homepage": "https://github.com/jon19995/Panda.git#readme",
+    "devDependencies": {
+        "@types/qs": "^6.9.7",
+        "@types/react": "^17.0.29",
+        "@types/react-dom": "^17.0.9",
+        "@typescript-eslint/eslint-plugin": "^4.32.0",
+        "@typescript-eslint/parser": "^4.32.0",
+        "css-loader": "^6.3.0",
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-linting-lightning": "0.0.7",
+        "eslint-plugin-optimize-regex": "^1.2.1",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-promise": "^5.1.0",
+        "eslint-plugin-react": "^7.26.1",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "eslint-plugin-sonarjs": "^0.10.0",
+        "eslint-webpack-plugin": "^3.0.1",
+        "html-webpack-plugin": "^5.3.2",
+        "mini-css-extract-plugin": "^2.3.0",
+        "node-sass": "^6.0.1",
+        "prettier": "2.4.1",
+        "sass-loader": "^12.1.0",
+        "style-loader": "^3.3.0",
+        "ts-loader": "^9.2.6",
+        "typescript": "^4.4.3",
+        "webpack": "^5.55.0",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.3.0"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.6.2",
+        "@types/react-router-dom": "^5.3.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-redux": "^7.2.5",
+        "react-router-dom": "^5.3.0",
+        "ts-fetch": "^1.1.3"
+    }
+}
