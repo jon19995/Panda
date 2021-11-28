@@ -1,11 +1,19 @@
 import { FC } from 'react';
 
-import TableItem from '../../Components/Simple/TableItem/TableItem';
+import Table from '../../Core/Components/Table/Table';
 
 interface IPromo {}
 
-const Promo: FC<IPromo> = (props): JSX.Element => {
-    return <TableItem {...props} />;
+const Promo: FC<IPromo> = (props) => {
+    return (
+        <Table
+            data={[
+                { firstName: '', lastName: '', old: 26 },
+                { firstName: '', lastName: '', old: 26 },
+            ]}
+            {...props}
+        />
+    );
 };
 
 export default Promo;
